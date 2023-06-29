@@ -22,8 +22,18 @@ main {
     font-size: 16rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
     color: #FFAF3E;
+}
+
+#timer-message {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 footer {
