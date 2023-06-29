@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Astro Space';
+    src: url('AstroSpace-eZ2Bg.ttf') format('truetype');
+}
+
+
+html {
+    background-color: #38103D;
+}
+
+body {
+    font-family: 'Astro Space', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer {
+    font-size: 18rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 200px;
+    height: 200px;
+}
