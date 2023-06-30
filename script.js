@@ -36,7 +36,7 @@ window.onload = function() {
 
     // Display the countdown message and time remaining
     document.getElementById("timer-message").innerHTML = countdownMessage;
-    if(hours===8 && minutes>=59 && minutes<=58 ){
+    if(hours===8 && minutes>=58 && minutes<=59 ){
     document.getElementById("timer").innerHTML = "Happy birthday Anish Koirala";
   }else{
     document.getElementById("timer").innerHTML =  hours + "h " + minutes + "m " + seconds + "s" ;}
