@@ -1,7 +1,7 @@
 window.onload = function() {
   // Set the target start and end dates and times
-  var startDate = new Date("June 30, 2023 08:00:00");
-  var endDate = new Date("July 1, 2023 08:00:00");
+  var startDate = new Date("June 30, 2023 09:00:00");
+  var endDate = new Date("July 1, 2023 09:00:00");
 
   // Calculate the starting countdown duration
   var startingCountdownDuration = startDate - new Date();
@@ -36,6 +36,9 @@ window.onload = function() {
 
     // Display the countdown message and time remaining
     document.getElementById("timer-message").innerHTML = countdownMessage;
-    document.getElementById("timer").innerHTML =  hours + "h " + minutes + "m " + seconds + "s" ;
+    if(hours===8 && minutes>=59 && minutes<=58 ){
+    document.getElementById("timer").innerHTML = "Happy birthday Anish Koirala";
+  }else{
+    document.getElementById("timer").innerHTML =  hours + "h " + minutes + "m " + seconds + "s" ;}
   }, 1000);
-};
+}; 
